@@ -1,0 +1,79 @@
+<!-- Spring Shop Framework -->
+<!-- Copyright (C) 2018-2021 Antoniazzi Holding BV -->
+
+<!-- This program is free software: you can redistribute it and/or modify it -->
+<!-- under the terms of the GNU General Public License as published by -->
+<!-- the Free Software Foundation, either version 3 of the License, -->
+<!-- or (at your option) any later version. -->
+
+<!-- This program is distributed in the hope that it will be useful, -->
+<!-- but WITHOUT ANY WARRANTY; without even the implied warranty of -->
+<!-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the -->
+<!-- GNU General Public License for more details. -->
+
+<!-- You should have received a copy of the GNU General Public License -->
+<!-- along with this program. If not, see <https://www.gnu.org/licenses/>. -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.4.3</version>
+	</parent>
+
+	<groupId>com.github.antoniazzi-inc</groupId>
+	<artifactId>spring-shop-framework-parent</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+	<name>spring-shop-framework-parent</name>
+
+	<developers>
+		<developer>
+			<name>Pieter Emeis</name>
+			<email>pjemeis@gmail.com</email>
+		</developer>
+		<developer>
+			<name>Kristijan Georgiev</name>
+			<email>kristijan.georgiev@gmail.com</email>
+		</developer>
+	</developers>
+
+	<licenses>
+		<license>
+			<name>GNU LGPLv3</name>
+			<url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+			<comments>Incorporates the terms and conditions of https://www.gnu.org/licenses/gpl-3.0.txt</comments>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<properties>
+		<java.version>1.8</java.version>
+
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+		<spring-boot.version>2.4.3</spring-boot.version>
+		<spring-cloud.version>2020.0.1</spring-cloud.version>
+	</properties>
+
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>${spring-boot.version}</version>
+				<scope>import</scope>
+				<type>pom</type>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+</project>
