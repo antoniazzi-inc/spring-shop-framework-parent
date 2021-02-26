@@ -61,6 +61,20 @@
 
 		<spring-boot.version>2.4.3</spring-boot.version>
 		<spring-cloud.version>2020.0.1</spring-cloud.version>
+
+		<moneta.version>1.4.2</moneta.version>
+
+		<jjwt.version>0.11.2</jjwt.version>
+
+		<rsql.parser.version>2.1.0</rsql.parser.version>
+
+		<hibernate.types.version>2.10.3</hibernate.types.version>
+
+		<google.cloud.storage.version>1.113.11</google.cloud.storage.version>
+		<google.cloud.datastore.version>1.105.9</google.cloud.datastore.version>
+
+		<problem.version>0.26.0-RC.0</problem.version>
+		<problem-spring-web.version>0.27.0-RC.0</problem-spring-web.version>
 	</properties>
 
 
@@ -73,7 +87,95 @@
 				<scope>import</scope>
 				<type>pom</type>
 			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>com.google.cloud</groupId>
+				<artifactId>google-cloud-datastore</artifactId>
+				<version>${google.cloud.datastore.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.google.cloud</groupId>
+				<artifactId>google-cloud-storage</artifactId>
+				<version>${google.cloud.storage.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.vladmihalcea</groupId>
+				<artifactId>hibernate-types-52</artifactId>
+				<version>${hibernate.types.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>cz.jirutka.rsql</groupId>
+				<artifactId>rsql-parser</artifactId>
+				<version>${rsql.parser.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.zalando</groupId>
+				<artifactId>problem</artifactId>
+				<version>${problem.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.zalando</groupId>
+				<artifactId>problem-gson</artifactId>
+				<version>${problem.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.zalando</groupId>
+				<artifactId>jackson-datatype-problem</artifactId>
+				<version>${problem.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.zalando</groupId>
+				<artifactId>problem-violations</artifactId>
+				<version>${problem-spring-web.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.zalando</groupId>
+				<artifactId>problem-spring-web</artifactId>
+				<version>${problem-spring-web.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.zalando</groupId>
+				<artifactId>problem-spring-webflux</artifactId>
+				<version>${problem-spring-web.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>io.jsonwebtoken</groupId>
+				<artifactId>jjwt-api</artifactId>
+				<version>${jjwt.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.jsonwebtoken</groupId>
+				<artifactId>jjwt-impl</artifactId>
+				<version>${jjwt.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.jsonwebtoken</groupId>
+				<artifactId>jjwt-jackson</artifactId>
+				<version>${jjwt.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.javamoney</groupId>
+				<artifactId>moneta</artifactId>
+				<version>${moneta.version}</version>
+				<type>pom</type>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
+	<modules>
+		<module>backend-commons</module>
+	</modules>
 </project>
