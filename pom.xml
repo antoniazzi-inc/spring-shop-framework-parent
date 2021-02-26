@@ -62,6 +62,10 @@
 		<spring-boot.version>2.4.3</spring-boot.version>
 		<spring-cloud.version>2020.0.1</spring-cloud.version>
 
+		<spring-boot-admin.version>2.4.0</spring-boot-admin.version>
+		<springdoc-openapi-ui.version>1.5.4</springdoc-openapi-ui.version>
+		<dockerfile-maven.version>1.4.13</dockerfile-maven.version>
+
 		<moneta.version>1.4.2</moneta.version>
 
 		<jjwt.version>0.11.2</jjwt.version>
@@ -75,6 +79,8 @@
 
 		<problem.version>0.26.0-RC.0</problem.version>
 		<problem-spring-web.version>0.27.0-RC.0</problem-spring-web.version>
+
+		<backend-commons.version>1.0.0</backend-commons.version>
 	</properties>
 
 
@@ -94,6 +100,13 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<dependency>
+				<groupId>de.codecentric</groupId>
+				<artifactId>spring-boot-admin-dependencies</artifactId>
+				<version>${spring-boot-admin.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
 
 			<dependency>
 				<groupId>com.google.cloud</groupId>
@@ -104,6 +117,12 @@
 				<groupId>com.google.cloud</groupId>
 				<artifactId>google-cloud-storage</artifactId>
 				<version>${google.cloud.storage.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>8.0.22</version>
 			</dependency>
 
 			<dependency>
@@ -172,10 +191,17 @@
 				<version>${moneta.version}</version>
 				<type>pom</type>
 			</dependency>
+
+			<dependency>
+				<groupId>com.github.antoniazzi-inc</groupId>
+				<artifactId>backend-commons</artifactId>
+				<version>${backend-commons.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
 	<modules>
 		<module>backend-commons</module>
+		<module>administrationms</module>
 	</modules>
 </project>

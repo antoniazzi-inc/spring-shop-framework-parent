@@ -1,0 +1,20 @@
+spring:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+  profiles:
+    active: dev
+    
+eureka:
+  instance:
+    prefer-ip-address: true
+
+wpsoft:
+  security:
+    web:
+      cors:
+        enabled: false
+      csrf:
+        enabled: false

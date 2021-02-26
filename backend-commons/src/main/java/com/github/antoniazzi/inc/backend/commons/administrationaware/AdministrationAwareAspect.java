@@ -18,8 +18,7 @@ import org.springframework.stereotype.Component;
 import com.github.antoniazzi.inc.backend.commons.PropPrefix;
 
 /**
- * Gets @AdministrationAwareService and applies hibernate administration aware
- * filters
+ * Gets @AdministrationAwareService and applies hibernate administration aware filters
  * 
  * @version 1.0.0
  * @since 09.11.2019
@@ -42,7 +41,7 @@ public class AdministrationAwareAspect {
 	@Autowired
 	private AdministrationAwareSecurityService securityService;
 
-	@Pointcut("target(nl.wpsoft.backend.commons.service.EntityService)")
+	@Pointcut("target(com.github.antoniazzi.inc.backend.commons.service.EntityService)")
 	public void entityServicePointcut() {
 
 	}
@@ -51,8 +50,7 @@ public class AdministrationAwareAspect {
 	public Object aroundAdministrationAwareService(ProceedingJoinPoint pjp) throws Throwable {
 		// check if service is administration aware
 		if (pjp.getTarget().getClass().isAnnotationPresent(AdministrationAwareService.class)) {
-			if (securityService.getAuthentication() != null
-					&& securityService.getAuthentication() instanceof AdministrationUserAuthentication
+			if (securityService.getAuthentication() != null && securityService.getAuthentication() instanceof AdministrationUserAuthentication
 					&& securityService.getAuthentication().getAdministrationId() != null) {
 				EntityManager entityManager = context.getBean(EntityManager.class);
 

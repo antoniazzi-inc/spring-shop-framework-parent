@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: administrationms
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: administrationms
+      version: "v1"
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 0
+      maxUnavailable: 1
+  template:
+    metadata:
+      labels:
+        app: administrationms
+        version: "v1"
+    spec:
+      containers:
+      - name: administrationms-app
+        image: gcr.io/antoniazzi-inc/spring-shop-framework/administrationms:1.0.0
+        imagePullPolicy: Always
+        ports:
+        - name: http
+          containerPort: 80
+        readinessProbe:
+          httpGet:
+            path: /actuator/health/readiness
+            port: http
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          timeoutSeconds: 2
+          failureThreshold: 6
+        livenessProbe:
+          httpGet:
+            path: /actuator/health/liveness
+            port: http
+          initialDelaySeconds: 20
+          periodSeconds: 5
+          timeoutSeconds: 2
+          failureThreshold: 8

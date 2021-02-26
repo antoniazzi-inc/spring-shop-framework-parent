@@ -1,0 +1,16 @@
+steps:
+ - name: gcr.io/cloud-builders/mvn
+   entrypoint: mvn
+   args: ['package','-Dmaven.test.skip=true']
+ - name: gcr.io/cloud-builders/docker
+   args: 
+    - push
+    - 'gcr.io/antoniazzi-inc/spring-shop-framework/administrationms:1.0.0'
+ - name: "gcr.io/cloud-builders/gke-deploy"
+   args:
+    - run
+    - -f=cloud-config
+    - -o=app
+    - -l=europe-west3-c
+    - -c=antoniazzi-inc-eu
+images: ['gcr.io/antoniazzi-inc/spring-shop-framework/administrationms:1.0.0']

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+	<changeSet id="Z10000000000000" author="master">
+		<loadData encoding="UTF-8" file="db/changelog/countries.csv"
+			separator=";" tableName="country">
+		</loadData>
+	</changeSet>
+
+	<changeSet id="Z10000000000010" author="master">
+		<loadData encoding="UTF-8" file="db/changelog/time_zones.csv"
+			separator=";" tableName="time_zone">
+		</loadData>
+	</changeSet>
+
+	<changeSet id="Z10000000000020" author="master">
+		<loadData encoding="UTF-8"
+			file="db/changelog/administrations.csv" separator=";"
+			tableName="administration">
+			<column name="wp_locked" type="boolean" />
+			<column name="trial" type="boolean" />
+			<column name="use_automation" type="boolean" />
+			<column name="use_shop" type="boolean" />
+		</loadData>
+	</changeSet>
+
+	<changeSet id="Z10000000000030" author="master">
+		<loadData encoding="UTF-8"
+			file="db/changelog/taxrates.csv" separator=","
+			tableName="tax_rate">
+		</loadData>
+		<loadData encoding="UTF-8"
+			file="db/changelog/taxratelinks.csv" separator=","
+			tableName="tax_rate_link">
+		</loadData>
+		<!-- loading json gives this error:
+		
+		Reason: liquibase.exception.UnexpectedLiquibaseException: CSV file db/changelog/regions.csv Line 2 has 306 values defined, Header has 9. Numbers MUST be equal (check for unquoted string with embedded commas)
+		
+		<loadData encoding="UTF-8"
+			file="db/changelog/regions.csv" separator=","
+			tableName="region">
+			<column name="abroad" type="boolean" />
+			<column name="home" type="boolean" />
+			<column name="inside_eu" type="boolean" />
+			<column name="outside_eu" type="boolean" />
+			<column name="countries_json" type="jsonb" />
+		</loadData>
+		 -->
+		<loadData encoding="UTF-8"
+			file="db/changelog/regions.csv" separator=";" 
+			tableName="region">
+			<column name="abroad" type="boolean" />
+			<column name="home" type="boolean" />
+			<column name="inside_eu" type="boolean" />
+			<column name="outside_eu" type="boolean" />
+		</loadData>
+	</changeSet>
+
+</databaseChangeLog>

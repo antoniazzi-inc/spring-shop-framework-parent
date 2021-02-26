@@ -1,0 +1,14 @@
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8761/boot-admin
+  application:
+    name: administrationms
+  cloud:
+    config:
+      fail-fast: false
+      uri: http://localhost:8761/config
+      name: administrationms
+      profile: dev
+      label: master

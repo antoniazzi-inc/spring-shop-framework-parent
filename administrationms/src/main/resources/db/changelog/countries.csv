@@ -1,0 +1,253 @@
+id;iso;iso3;num_code;phone_code;nl_name;en_name;version
+1;AF;AFG;4;93;Afghanistan;Afghanistan;0
+2;AL;ALB;8;355;Albanië;Albania;0
+3;DZ;DZA;12;213;Algerije;Algeria;0
+4;AS;ASM;16;1684;Amerikaans-Samoa;American Samoa;0
+5;AD;AND;20;376;Andorra;Andorra;0
+6;AO;AGO;24;244;Angola;Angola;0
+7;AI;AIA;660;1264;Anguilla;Anguilla;0
+8;AQ;;;0;Antarctica;Antarctica;0
+9;AG;ATG;28;1268;Antigua en Barbuda;Antigua and Barbuda;0
+10;AR;ARG;32;54;Argentinië;Argentina;0
+11;AM;ARM;51;374;Armenië;Armenia;0
+12;AW;ABW;533;297;Aruba;Aruba;0
+13;AU;AUS;36;61;Australië;Australia;0
+14;AT;AUT;40;43;Oostenrijk;Austria;0
+15;AZ;AZE;31;994;Azerbeidzjan;Azerbaijan;0
+16;BS;BHS;44;1242;Bahama's;Bahamas;0
+17;BH;BHR;48;973;Bahrein;Bahrain;0
+18;BD;BGD;50;880;Bangladesh;Bangladesh;0
+19;BB;BRB;52;1246;Barbados;Barbados;0
+20;BY;BLR;112;375;Wit-Rusland;Belarus;0
+21;BE;BEL;56;32;België;Belgium;0
+22;BZ;BLZ;84;501;Belize;Belize;0
+23;BJ;BEN;204;229;Benin;Benin;0
+24;BM;BMU;60;1441;Bermuda;Bermuda;0
+25;BT;BTN;64;975;Bhutan;Bhutan;0
+26;BO;BOL;68;591;Bolivia;Bolivia;0
+27;BA;BIH;70;387;Bosnië en Herzegovina;Bosnia and Herzegovina;0
+28;BW;BWA;72;267;Botswana;Botswana;0
+29;BV;;;0;Bouvet;Bouvet Island;0
+30;BR;BRA;76;55;Brazilië;Brazil;0
+31;IO;;;246;Brits Territorium in de Indische Oceaan;British Indian Ocean Territory;0
+32;BN;BRN;96;673;Brunei;Brunei Darussalam;0
+33;BG;BGR;100;359;Bulgarije;Bulgaria;0
+34;BF;BFA;854;226;Burkina Faso;Burkina Faso;0
+35;BI;BDI;108;257;Burundi;Burundi;0
+36;KH;KHM;116;855;Cambodja;Cambodia;0
+37;CM;CMR;120;237;Kameroen;Cameroon;0
+38;CA;CAN;124;1;Canada;Canada;0
+39;CV;CPV;132;238;Kaapverdië;Cape Verde;0
+40;KY;CYM;136;1345;Kaaimaneilanden;Cayman Islands;0
+41;CF;CAF;140;236;Centraal-Afrikaanse Republiek;Central African Republic;0
+42;TD;TCD;148;235;Tsjaad;Chad;0
+43;CL;CHL;152;56;Chili;Chile;0
+44;CN;CHN;156;86;China;China;0
+45;CX;;;61;Christmaseiland;Christmas Island;0
+46;CC;;;672;Cocoseilanden;Cocos (Keeling) Islands;0
+47;CO;COL;170;57;Colombia;Colombia;0
+48;KM;COM;174;269;Comoren;Comoros;0
+49;CG;COG;178;242;Congo-Brazzaville;Congo;0
+50;CD;COD;180;242;Congo-Kinshasa;Congo, the Democratic Republic of the;0
+51;CK;COK;184;682;Cookeilanden;Cook Islands;0
+52;CR;CRI;188;506;Costa Rica;Costa Rica;0
+53;CI;CIV;384;225;Ivoorkust;Cote D'Ivoire;0
+54;HR;HRV;191;385;Kroatië;Croatia;0
+55;CU;CUB;192;53;Cuba;Cuba;0
+56;CY;CYP;196;357;Cyprus;Cyprus;0
+57;CZ;CZE;203;420;Tsjechië;Czech Republic;0
+58;DK;DNK;208;45;Denemarken;Denmark;0
+59;DJ;DJI;262;253;Djibouti;Djibouti;0
+60;DM;DMA;212;1767;Dominica;Dominica;0
+61;DO;DOM;214;1809;Dominicaanse Republiek;Dominican Republic;0
+62;EC;ECU;218;593;Ecuador;Ecuador;0
+63;EG;EGY;818;20;Egypte;Egypt;0
+64;SV;SLV;222;503;El Salvador;El Salvador;0
+65;GQ;GNQ;226;240;Equatoriaal-Guinea;Equatorial Guinea;0
+66;ER;ERI;232;291;Eritrea;Eritrea;0
+67;EE;EST;233;372;Estland;Estonia;0
+68;ET;ETH;231;251;Ethiopië;Ethiopia;0
+69;FK;FLK;238;500;Falklandeilanden;Falkland Islands (Malvinas);0
+70;FO;FRO;234;298;Faeröer;Faroe Islands;0
+71;FJ;FJI;242;679;Fiji;Fiji;0
+72;FI;FIN;246;358;Finland;Finland;0
+73;FR;FRA;250;33;Frankrijk;France;0
+74;GF;GUF;254;594;Frans-Guyana;French Guiana;0
+75;PF;PYF;258;689;Frans-Polynesië;French Polynesia;0
+76;TF;;;0;Franse Zuidelijke en Antarctische Gebieden;French Southern Territories;0
+77;GA;GAB;266;241;Gabon;Gabon;0
+78;GM;GMB;270;220;Gambia;Gambia;0
+79;GE;GEO;268;995;Georgië;Georgia;0
+80;DE;DEU;276;49;Duitsland;Germany;0
+81;GH;GHA;288;233;Ghana;Ghana;0
+82;GI;GIB;292;350;Gibraltar;Gibraltar;0
+83;GR;GRC;300;30;Griekenland;Greece;0
+84;GL;GRL;304;299;Groenland;Greenland;0
+85;GD;GRD;308;1473;Grenada;Grenada;0
+86;GP;GLP;312;590;Guadeloupe;Guadeloupe;0
+87;GU;GUM;316;1671;Guam;Guam;0
+88;GT;GTM;320;502;Guatemala;Guatemala;0
+89;GN;GIN;324;224;Guinee;Guinea;0
+90;GW;GNB;624;245;Guinee-Bissau;Guinea-Bissau;0
+91;GY;GUY;328;592;Guyana;Guyana;0
+92;HT;HTI;332;509;Haïti;Haiti;0
+93;HM;;;0;Heard en McDonaldeilanden;Heard Island and Mcdonald Islands;0
+94;VA;VAT;336;39;Vaticaanstad;Holy See (Vatican City State);0
+95;HN;HND;340;504;Honduras;Honduras;0
+96;HK;HKG;344;852;Hongkong;Hong Kong;0
+97;HU;HUN;348;36;Hongarije;Hungary;0
+98;IS;ISL;352;354;IJsland;Iceland;0
+99;IN;IND;356;91;India;India;0
+100;ID;IDN;360;62;Indonesië;Indonesia;0
+101;IR;IRN;364;98;Iran;Iran, Islamic Republic of;0
+102;IQ;IRQ;368;964;Irak;Iraq;0
+103;IE;IRL;372;353;Ierland;Ireland;0
+104;IL;ISR;376;972;Israël;Israel;0
+105;IT;ITA;380;39;Italië;Italy;0
+106;JM;JAM;388;1876;Jamaica;Jamaica;0
+107;JP;JPN;392;81;Japan;Japan;0
+108;JO;JOR;400;962;Jordanië;Jordan;0
+109;KZ;KAZ;398;7;Kazachstan;Kazakhstan;0
+110;KE;KEN;404;254;Kenia;Kenya;0
+111;KI;KIR;296;686;Kiribati;Kiribati;0
+112;KP;PRK;408;850;Noord-Korea;Korea, Democratic People's Republic of;0
+113;KR;KOR;410;82;Zuid-Korea;Korea, Republic of;0
+114;KW;KWT;414;965;Koeweit;Kuwait;0
+115;KG;KGZ;417;996;Kirgizië;Kyrgyzstan;0
+116;LA;LAO;418;856;Laos;Lao People's Democratic Republic;0
+117;LV;LVA;428;371;Letland;Latvia;0
+118;LB;LBN;422;961;Libanon;Lebanon;0
+119;LS;LSO;426;266;Lesotho;Lesotho;0
+120;LR;LBR;430;231;Liberia;Liberia;0
+121;LY;LBY;434;218;Libië;Libyan Arab Jamahiriya;0
+122;LI;LIE;438;423;Liechtenstein;Liechtenstein;0
+123;LT;LTU;440;370;Litouwen;Lithuania;0
+124;LU;LUX;442;352;Luxemburg;Luxembourg;0
+125;MO;MAC;446;853;Macau;Macao;0
+126;MK;MKD;807;389;Macedonië;Macedonia, the Former Yugoslav Republic of;0
+127;MG;MDG;450;261;Madagaskar;Madagascar;0
+128;MW;MWI;454;265;Malawi;Malawi;0
+129;MY;MYS;458;60;Maleisië;Malaysia;0
+130;MV;MDV;462;960;Maldiven;Maldives;0
+131;ML;MLI;466;223;Mali;Mali;0
+132;MT;MLT;470;356;Malta;Malta;0
+133;MH;MHL;584;692;Marshalleilanden;Marshall Islands;0
+134;MQ;MTQ;474;596;Martinique;Martinique;0
+135;MR;MRT;478;222;Mauritanië;Mauritania;0
+136;MU;MUS;480;230;Mauritius;Mauritius;0
+137;YT;;;269;Mayotte;Mayotte;0
+138;MX;MEX;484;52;Mexico;Mexico;0
+139;FM;FSM;583;691;Micronesia;Micronesia, Federated States of;0
+140;MD;MDA;498;373;Moldavië;Moldova, Republic of;0
+141;MC;MCO;492;377;Monaco;Monaco;0
+142;MN;MNG;496;976;Mongolië;Mongolia;0
+143;MS;MSR;500;1664;Montserrat;Montserrat;0
+144;MA;MAR;504;212;Marokko;Morocco;0
+145;MZ;MOZ;508;258;Mozambique;Mozambique;0
+146;MM;MMR;104;95;Myanmar;Myanmar;0
+147;NA;NAM;516;264;Namibië;Namibia;0
+148;NR;NRU;520;674;Nauru;Nauru;0
+149;NP;NPL;524;977;Nepal;Nepal;0
+150;NL;NLD;528;31;Nederland;Netherlands;0
+151;AN;ANT;530;599;Nederlandse Antillen;Netherlands Antilles;0
+152;NC;NCL;540;687;Nieuw-Caledonië;New Caledonia;0
+153;NZ;NZL;554;64;Nieuw-Zeeland;New Zealand;0
+154;NI;NIC;558;505;Nicaragua;Nicaragua;0
+155;NE;NER;562;227;Niger;Niger;0
+156;NG;NGA;566;234;Nigeria;Nigeria;0
+157;NU;NIU;570;683;Niue;Niue;0
+158;NF;NFK;574;672;Norfolk;Norfolk Island;0
+159;MP;MNP;580;1670;Noordelijke Marianen;Northern Mariana Islands;0
+160;NO;NOR;578;47;Noorwegen;Norway;0
+161;OM;OMN;512;968;Oman;Oman;0
+162;PK;PAK;586;92;Pakistan;Pakistan;0
+163;PW;PLW;585;680;Palau;Palau;0
+164;PS;;;970;Palestijnse Autoriteit;Palestinian Territory, Occupied;0
+165;PA;PAN;591;507;Panama;Panama;0
+166;PG;PNG;598;675;Papoea-Nieuw-Guinea;Papua New Guinea;0
+167;PY;PRY;600;595;Paraguay;Paraguay;0
+168;PE;PER;604;51;Peru;Peru;0
+169;PH;PHL;608;63;Filipijnen;Philippines;0
+170;PN;PCN;612;0;Pitcairneilanden;Pitcairn;0
+171;PL;POL;616;48;Polen;Poland;0
+172;PT;PRT;620;351;Portugal;Portugal;0
+173;PR;PRI;630;1787;Puerto Rico;Puerto Rico;0
+174;QA;QAT;634;974;Qatar;Qatar;0
+175;RE;REU;638;262;Réunion;Reunion;0
+176;RO;ROM;642;40;Roemenië;Romania;0
+177;RU;RUS;643;70;Rusland;Russian Federation;0
+178;RW;RWA;646;250;Rwanda;Rwanda;0
+179;SH;SHN;654;290;Sint-Helena;Saint Helena;0
+180;KN;KNA;659;1869;Saint Kitts en Nevis;Saint Kitts and Nevis;0
+181;LC;LCA;662;1758;Saint Lucia;Saint Lucia;0
+182;PM;SPM;666;508;Saint-Pierre en Miquelon;Saint Pierre and Miquelon;0
+183;VC;VCT;670;1784;Saint Vincent en de Grenadines;Saint Vincent and the Grenadines;0
+184;WS;WSM;882;684;Samoa;Samoa;0
+185;SM;SMR;674;378;San Marino;San Marino;0
+186;ST;STP;678;239;Sao Tomé en Principe;Sao Tome and Principe;0
+187;SA;SAU;682;966;Saoedi-Arabië;Saudi Arabia;0
+188;SN;SEN;686;221;Senegal;Senegal;0
+189;CS;;;381;Serbia and Montenegro;Serbia and Montenegro;0
+190;SC;SYC;690;248;Seychellen;Seychelles;0
+191;SL;SLE;694;232;Sierra Leone;Sierra Leone;0
+192;SG;SGP;702;65;Singapore;Singapore;0
+193;SK;SVK;703;421;Slowakije;Slovakia;0
+194;SI;SVN;705;386;Slovenië;Slovenia;0
+195;SB;SLB;90;677;Salomonseilanden;Solomon Islands;0
+196;SO;SOM;706;252;Somalië;Somalia;0
+197;ZA;ZAF;710;27;Zuid-Afrika;South Africa;0
+198;GS;;;0;Zuid-Georgië en de Zuidelijke Sandwicheilanden;South Georgia and the South Sandwich Islands;0
+199;ES;ESP;724;34;Spanje;Spain;0
+200;LK;LKA;144;94;Sri Lanka;Sri Lanka;0
+201;SD;SDN;736;249;Soedan;Sudan;0
+202;SR;SUR;740;597;Suriname;Suriname;0
+203;SJ;SJM;744;47;Spitsbergen en Jan Mayen;Svalbard and Jan Mayen;0
+204;SZ;SWZ;748;268;Swaziland;Swaziland;0
+205;SE;SWE;752;46;Zweden;Sweden;0
+206;CH;CHE;756;41;Zwitserland;Switzerland;0
+207;SY;SYR;760;963;Syrië;Syrian Arab Republic;0
+208;TW;TWN;158;886;Taiwan;Taiwan, Province of China;0
+209;TJ;TJK;762;992;Tadzjikistan;Tajikistan;0
+210;TZ;TZA;834;255;Tanzania;Tanzania, United Republic of;0
+211;TH;THA;764;66;Thailand;Thailand;0
+212;TL;;;670;Oost-Timor;Timor-Leste;0
+213;TG;TGO;768;228;Togo;Togo;0
+214;TK;TKL;772;690;Tokelau-eilanden;Tokelau;0
+215;TO;TON;776;676;Tonga;Tonga;0
+216;TT;TTO;780;1868;Trinidad en Tobago;Trinidad and Tobago;0
+217;TN;TUN;788;216;Tunesië;Tunisia;0
+218;TR;TUR;792;90;Turkije;Turkey;0
+219;TM;TKM;795;7370;Turkmenistan;Turkmenistan;0
+220;TC;TCA;796;1649;Turks- en Caicoseilanden;Turks and Caicos Islands;0
+221;TV;TUV;798;688;Tuvalu;Tuvalu;0
+222;UG;UGA;800;256;Oeganda;Uganda;0
+223;UA;UKR;804;380;Oekraïne;Ukraine;0
+224;AE;ARE;784;971;Verenigde Arabische Emiraten;United Arab Emirates;0
+225;GB;GBR;826;44;Verenigd Koninkrijk;United Kingdom;0
+226;US;USA;840;1;Verenigde Staten;United States;0
+227;UM;;;1;Kleine Pacifische eilanden van de Verenigde Staten;United States Minor Outlying Islands;0
+228;UY;URY;858;598;Uruguay;Uruguay;0
+229;UZ;UZB;860;998;Oezbekistan;Uzbekistan;0
+230;VU;VUT;548;678;Vanuatu;Vanuatu;0
+231;VE;VEN;862;58;Venezuela;Venezuela;0
+232;VN;VNM;704;84;Vietnam;Viet Nam;0
+233;VG;VGB;92;1284;Britse Maagdeneilanden;Virgin Islands, British;0
+234;VI;VIR;850;1340;Amerikaanse Maagdeneilanden;Virgin Islands, U.s.;0
+235;WF;WLF;876;681;Wallis en Futuna;Wallis and Futuna;0
+236;EH;ESH;732;212;Westelijke Sahara;Western Sahara;0
+237;YE;YEM;887;967;Jemen;Yemen;0
+238;ZM;ZMB;894;260;Zambia;Zambia;0
+239;ZW;ZWE;716;263;Zimbabwe;Zimbabwe;0
+241;AP;0;0;0;Asia / Pacific Region;Asia / Pacific Region;0
+242;ME;MNE;499;382;Montenegro;Montenegro;0
+243;AX;ALA;248;358;Aland;Aland Islands;0
+244;BQ;BES;535;599;Bonaire, Sint Eustatius and Saba;Bonaire, Sint Eustatius and Saba;0
+245;CW;CUW;531;599;Curacao;Curacao;0
+246;GG;GGY;831;44;Guernsey;Guernsey;0
+247;IM;IMN;833;44;Isle of Man;Isle of Man;0
+248;JE;JEY;832;44;Jersey;Jersey;0
+249;XK;---;0;381;Kosovo;Kosovo;0
+250;BL;BLM;652;590;Saint-Barthélemy;Saint Barthelemy;0
+251;MF;MAF;663;590;Sint-Maarten;Saint Martin;0
+252;SX;SXM;534;1;Sint Maarten;Sint Maarten;0
+253;SS;SSD;728;211;South Sudan;South Sudan;0

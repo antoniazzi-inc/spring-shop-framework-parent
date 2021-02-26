@@ -1,0 +1,3 @@
+id;uid;name;access_code;currency;relations_limit;lang_key;country_id;wp_locked;trial;use_automation;use_shop;valid_from;version
+1;ce03cca6-2566-4c0a-ad85-e8c4f024a7f2;Admin One;KAJSU34;EUR;65535;en;150;0;0;1;1;2020-01-01 00:00:00;0
+2;b04b6382-4f76-4c32-a8cd-b8a206a79206;Admin Two;NESUTUA;EUR;65535;en;200;0;0;1;1;2020-01-01 00:00:00;0

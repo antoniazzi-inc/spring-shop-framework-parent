@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: queue
+  rabbitmq:
+    host: ${rqueue.host:localhost}
+    port: ${rqueue.port:5672}
+    username: ${rqueue.username:guest}
+    password: ${rqueue.password:guest}
+
+management:
+  health:
+    rabbit:
+      enabled: true
+    
+wpsoft:
+  queue:
+    enabled: true
+    aspect: true
+    destinations:
+      queues:
+        eventms:
+          exchange: ${default.exchange.name:eventms}
+          routing-key:
